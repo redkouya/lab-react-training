@@ -16,7 +16,7 @@ function App() {
         firstName="Búho"
         gender="female"
         height={45}
-        birth={new Date('1985-05-22').toLocaleDateString('es-ES')}
+        birth={new Date('1988-08-07').toLocaleDateString('es-ES')}
         picture="https://i.natgeofe.com/n/d5863c64-a28c-4e30-9ee8-ecc4175e8439/NationalGeographic_2745282_square.jpg"
       />
       <IdCard
@@ -37,6 +37,7 @@ function App() {
       <BoxColor r={255} g={0} b={0} />
       <BoxColor r={128} g={255} b={0} />
       <h2>Iteracion 5</h2>
+      <div class="credit-card-container">
       <CreditCard
         type="Visa"
         number="0123456789018845"
@@ -47,6 +48,7 @@ function App() {
         bgColor="#11aa99"
         color="white"
       />
+      </div>
     </div>
   );
 }
